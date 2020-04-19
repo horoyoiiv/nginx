@@ -16,4 +16,11 @@ nginx
 
 **etc/nginx/nginx.conf** 파일에서 설정  
 
+#### 4. 로드밸런싱하기  
+[](https://kamang-it.tistory.com/entry/WebServernginxnginx%EB%A1%9C-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1-%ED%95%98%EA%B8%B0)  
+
+
+#### 5. static file caching하기  
+
+
 
