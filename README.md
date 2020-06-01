@@ -41,6 +41,16 @@ location /path {
     expires 10m;
 }
 ```
+# [4. reverse proxy](/master/docs/r.md)  
+* `/auth` path를 가지는 요청이 들어오면 `proxy_pass` 에 기입된 upstream 서버로 요청을 포워딩한다.  
+* **Connection** 필드는 **Close**로 세팅되어 전달된다.  
+
+```
+location /auth {
+  proxy_set_header X-Header "good";   // 커스튬 헤더 추가 가능.
+  proxy_pass http://127.0.0.1:8007;
+}
+```
 
 # [4. 응답 캐싱]  
 # [5. 로드 밸런싱]  
