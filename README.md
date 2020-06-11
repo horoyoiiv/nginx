@@ -52,6 +52,13 @@ location /auth {
 }
 ```
 
+# [5. health check](https://github.com/horoyoiiv/nginx/blob/master/docs/he.md)  
+* passive health check  
+* active health check  
+
+
+
+
 # [4. 응답 캐싱]  
 # [5. 로드 밸런싱]  
 
