@@ -16,6 +16,15 @@ nginx
 * `return 307 /greet`  
 * `rewrite ^/user/(\w+) /greet/$1`  
 
+## [5. worker process & connections](https://github.com/horoyoiiv/nginx/blob/master/udemy/worker.md)  
+* `worker_processes`  
+* `worker_connections`  
+* `pid`  
+
+## [6. Buffering & Timeout](https://github.com/horoyoiiv/nginx/blob/master/udemy/buffer.md)  
+* `buffer`  
+* `timeout`  
+
 
 ## [Reverse Proxy](https://github.com/horoyoiiv/nginx/blob/master/udemy/reverse_proxy.md)  
 ## [Load Balancer](https://github.com/horoyoiiv/nginx/blob/master/udemy/lb.md)  
